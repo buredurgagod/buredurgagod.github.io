@@ -13,22 +13,39 @@ html {
   transition: all 0.3s ease-out;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 .button {
+  background-color: #70C51D; 
+  color: white; 
   border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
+  border-radius : 6px;
+  padding: 16px 32px;
+  text-align: center; 
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-weight: 600;
   margin: 4px 2px;
   cursor: pointer;
   font-family : 'Open Sans', sans-serif;
-  border-radius : 6px;
 }
 
-body {
-  background-color: #ffffff;
+.resume {
+  color: #707070;
+  padding: 8px 8px;
+  border-bottom: 2px solid #707070;
+  border-radius : 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family : 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 20px;
+  background-color: rgba(112,197,29,0.02);
 }
 
 body, p {
@@ -106,7 +123,7 @@ h2+p.label, h3+p.label {
 /* utilities */
 
 .accent, .accent::selection {
-  color: #7ad71f;
+  color: #70C51D;
 }
 
 .normal {
@@ -203,7 +220,7 @@ h2+p.label, h3+p.label {
   bottom: -10px;
   height: 6px;
   width: 60px;
-  border-bottom: 6px solid #7ad71f;
+  border-bottom: 6px solid #70C51D;
 }
 
 .section-banner {
@@ -290,7 +307,7 @@ a.strike-through {
 
 a.strike-through:before {
   content: '';
-  border-top: 1em solid #7ad71f;
+  border-top: 1em solid #70C51D;
   position: absolute;
   margin: 0 auto;
   width: 0;
@@ -314,6 +331,20 @@ a.strike-through.button {
   font-weight: 700;
   margin-left: 0;
   padding: 0 4px;
+}
+
+a.strike-through.button2 {
+  letter-spacing: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 20px;
+  padding: 8px 8px;
+  border-bottom: 2px solid #707070;
+  border-radius : 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 /* main */
@@ -378,15 +409,15 @@ a.strike-through.button {
   background-color: #FFF;
   margin-bottom: 40px;
   overflow: hidden;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.04);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  -webkit-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
   -webkit-transition: all .4s;
 }
 
 #work .card:hover {
-  -webkit-box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.08);
-  box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
 #work .card a {
@@ -410,9 +441,15 @@ a.strike-through.button {
   width: 100%;
   background-color: #fefefe;
   padding: 35px 25px;
-  border-radius: 0 0 4px 4px;
+  border-radius: 8px 8px 8px 8px;
   z-index: 1;
   transition: all 0.25s ease-in-out;
+}
+
+#work .card-desc:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 -4px 8px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 -4px 8px 2px rgba(0, 0, 0, 0.1);
 }
 
 #work .label span, .case-study .label span {
@@ -433,7 +470,7 @@ a.strike-through.button {
 }
 
 #work a:hover i.material-icons {
-  color: #7ad71f;
+  color: #70C51D;
 }
 
 #work a:hover .card-desc {
@@ -613,11 +650,11 @@ ul.contact-icons>li:before {
 
 #contact a:hover {
   border-bottom-color: transparent;
-  color: #7ad71f;
+  color: #70C51D;
 }
 
 #contact a:hover+li.icon {
-  color: #7ad71f;
+  color: #70C51D;
 }
 
 .hidden {
@@ -787,7 +824,7 @@ footer img {
 
 .slider-wrapper {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   padding-top: 60px;
 }
 
@@ -797,12 +834,13 @@ footer img {
   display: block;
   max-width: 100%;
   width: auto;
-  max-height: calc(100vh - 100px);
+  max-height: calc(80vh - 80px);
   border: 0;
 }
 
 .sy-box {
-  height: calc(100vh - 100px);
+  height: calc(80vh - 80px);
+  background-color: #e1e1e1;
 }
 
 .sy-pager {
@@ -825,11 +863,11 @@ footer img {
 }
 
 .sy-pager li.sy-active a {
-  background-color: #7ad71f;
+  background-color: #70C51D;
 }
 
 .sy-caption-wrap .sy-caption a:link, .sy-caption-wrap .sy-caption a:visited {
-  color: #7ad71f;
+  color: #70C51D;
 }
 
 .sy-controls li a:after {
