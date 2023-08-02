@@ -334,6 +334,7 @@ a.strike-through.button {
 }
 
 a.strike-through.button2 {
+  height: 46px;
   letter-spacing: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
