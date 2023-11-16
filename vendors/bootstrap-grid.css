@@ -19,35 +19,42 @@ html {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 @media (min-width: 576px) {
   .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
 @media (min-width: 992px) {
   .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
@@ -79,39 +86,53 @@ html {
   }
 }
 
+@media (min-width: 1440px) {
+  .container {
+    width: 1360px;
+    max-width: 100%;
+  }
+}
+
 .container-fluid {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 @media (min-width: 576px) {
   .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
 @media (min-width: 768px) {
   .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
 @media (min-width: 992px) {
   .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
 @media (min-width: 1200px) {
   .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-fluid {
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 

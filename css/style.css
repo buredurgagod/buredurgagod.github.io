@@ -155,6 +155,12 @@ h2+p.label, h3+p.label {
   width: 100%;
 }
 
+}
+
+.half-width {
+  width: 80%;
+}
+
 .p-b-md {
   padding-bottom: 30px;
 }
@@ -355,10 +361,9 @@ a.strike-through.button2 {
 }
 
 .hero-image__img {
-  height: 450px;
+  height: 350px;
   position: absolute;
-  right: 0;
-  z-index: -1;
+  right: 16%;
 }
 
 .fixed-to-background {
