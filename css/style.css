@@ -130,6 +130,36 @@ h2+p.label, h3+p.label {
   font-weight: 400;
 }
 
+.main-image {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  padding-top: 60px;
+  background-color: grey;
+}
+
+.left-section {
+  display: block;
+  margin-bottom: 25px !important;
+}
+
+.left-section img {
+  object-fit: contain;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.right-section {
+  display: block;
+  margin-bottom: 25px !important;
+}
+
+.right-section img {
+  object-fit: contain;
+  max-width: 100%;
+  vertical-align: top;
+}
+
 .valign-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -704,7 +734,7 @@ footer img {
 }
 
 .case-study section {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .wrapper {
