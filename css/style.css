@@ -133,7 +133,7 @@ h2+p.label, h3+p.label {
 .main-image {
   display: flex;
   justify-content: center;
-  height: 40vh;
+  height: 75vh;
   padding-top: 60px;
   background-color: grey;
 }
