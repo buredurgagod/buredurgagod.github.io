@@ -189,8 +189,6 @@ h2+p.label, h3+p.label {
   width: 100%;
 }
 
-}
-
 .half-width {
   width: 80%;
 }
@@ -339,7 +337,7 @@ a.strike-through {
   transition: opacity .3s, color .5s cubic-bezier(.55, .055, .675, .19);
   text-decoration: none;
   padding: 0 8px;
-  margin-left: 20px;
+  margin-left: 16px;
   letter-spacing: 1px;
   font-weight: 400;
   cursor: pointer;
