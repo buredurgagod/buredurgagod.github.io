@@ -160,6 +160,10 @@ h2+p.label, h3+p.label {
   vertical-align: top;
 }
 
+.bullets{
+  margin-left: -15px;
+}
+
 .valign-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
