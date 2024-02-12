@@ -161,7 +161,7 @@ h2+p.label, h3+p.label {
 }
 
 .bullets{
-  margin-left: -15px;
+  padding: 0;
 }
 
 .valign-wrapper {
@@ -232,6 +232,13 @@ h2+p.label, h3+p.label {
   .visible-below-md {
     display: none;
   }
+}
+
+@media (max-width: 767px)
+{
+  .bullets {
+    margin-left: 2em;
+    }
 }
 
 .label {
