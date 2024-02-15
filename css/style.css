@@ -130,9 +130,26 @@ h2+p.label, h3+p.label {
   font-weight: 400;
 }
 
-.main-image {
+.rummy-image {
   display: flex;
   justify-content: center;
+  background-image: url(./rummy-image.png);
+  height: 50vh;
+  padding-top: 60px;
+}
+
+.poker-image {
+  display: flex;
+  justify-content: center;
+  background-image: url(./poker-image.png);
+  height: 50vh;
+  padding-top: 60px;
+}
+
+.wizely-image {
+  display: flex;
+  justify-content: center;
+  background-image: url(./wizely-image.png);
   height: 50vh;
   padding-top: 60px;
 }
