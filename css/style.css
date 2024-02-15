@@ -133,9 +133,8 @@ h2+p.label, h3+p.label {
 .main-image {
   display: flex;
   justify-content: center;
-  height: 75vh;
+  height: 50vh;
   padding-top: 60px;
-  background-color: grey;
 }
 
 .left-section {
@@ -162,6 +161,10 @@ h2+p.label, h3+p.label {
 
 .bullets{
   padding: 0;
+}
+
+.casestudy {
+  font-size: 0;
 }
 
 .valign-wrapper {
