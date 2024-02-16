@@ -511,6 +511,10 @@ a.strike-through.button2 {
   transition: all 0.25s ease-in-out;
 }
 
+#work a:hover .card-desc{
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
 #work .card-desc:hover {
   background-color: #ffffff;
   -webkit-box-shadow: 0 -4px 8px 2px rgba(0, 0, 0, 0.1);
@@ -539,7 +543,7 @@ a.strike-through.button2 {
 }
 
 #work a:hover .card-desc {
-  height: 280px;
+  height: 200px;
 }
 
 #work a:hover .card-desc-panel {
