@@ -136,7 +136,7 @@ h2+p.label, h3+p.label {
   background-image: url(./rummy-image.png);
   height: 50vh;
   padding-top: 60px;
- 
+ background-position: center;
 }
 
 .poker-image {
