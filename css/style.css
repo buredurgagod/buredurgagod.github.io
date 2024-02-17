@@ -262,6 +262,13 @@ h2+p.label, h3+p.label {
     }
 }
 
+@media (max-width : 576px )
+{
+  .row .align-self-center{
+    padding-left :8%;
+  }
+}
+
 .label {
   color: #9394A7;
   margin: 5px 0;
