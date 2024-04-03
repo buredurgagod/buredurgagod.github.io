@@ -143,6 +143,7 @@ h2+p.label, h3+p.label {
   display: flex;
   justify-content: center;
   background-image: url(./poker-image.png);
+  background-color: #181818;
   height: 50vh;
   padding-top: 60px;
 }
